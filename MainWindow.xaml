@@ -1,0 +1,25 @@
+﻿<Controls:MetroWindow  x:Class="MahappsDragAndDrop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="MainWindow" Height="600" Width="800">
+    <Controls:MetroWindow.RightWindowCommands>
+        <Controls:WindowCommands>
+            <Button Name="SettingsButton" Content="settings" Click="SettingsButton_Click" />
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.RightWindowCommands>
+    <Controls:MetroWindow.Flyouts>
+        <Controls:FlyoutsControl>
+            <Controls:Flyout Name="SettingsFlyout" Header="" Position="Right" Width="100">
+                <StackPanel Name="SettingsList" MouseLeftButtonDown="SettingsList_MouseLeftButtonDown">
+                    <Image Source="mahapps.metro_med.png" Width="32" Height="32" Margin="4" />
+                    <Image Source="mahapps.metro_med.png" Width="32" Height="32" Margin="4" />
+                    <Image Source="mahapps.metro_med.png" Width="32" Height="32" Margin="4" />
+                    <Image Source="mahapps.metro_med.png" Width="32" Height="32" Margin="4" />
+                </StackPanel>
+            </Controls:Flyout>
+        </Controls:FlyoutsControl>
+    </Controls:MetroWindow.Flyouts>
+    <Canvas Name="DesignSurface" AllowDrop="True" Drop="DesignSurface_Drop">
+    </Canvas>
+</Controls:MetroWindow>
