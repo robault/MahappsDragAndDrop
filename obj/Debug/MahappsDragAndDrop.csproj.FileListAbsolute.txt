@@ -18,3 +18,5 @@ c:\users\robau\documents\visual studio 2013\Projects\MahappsDragAndDrop\MahappsD
 c:\users\robau\documents\visual studio 2013\Projects\MahappsDragAndDrop\MahappsDragAndDrop\obj\Debug\MahappsDragAndDrop.exe
 c:\users\robau\documents\visual studio 2013\Projects\MahappsDragAndDrop\MahappsDragAndDrop\obj\Debug\MahappsDragAndDrop.pdb
 c:\users\robau\documents\visual studio 2013\Projects\MahappsDragAndDrop\MahappsDragAndDrop\obj\Debug\App.baml
+C:\Users\robau\Documents\Visual Studio 2013\Projects\MahappsDragAndDrop\MahappsDragAndDrop\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\robau\Documents\Visual Studio 2013\Projects\MahappsDragAndDrop\MahappsDragAndDrop\obj\Debug\MahappsDragAndDrop_MarkupCompile.lref
